@@ -1,0 +1,1 @@
+nodemon --exec babel-node index.js --ignore public/

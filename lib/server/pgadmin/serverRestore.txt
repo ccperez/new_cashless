@@ -1,0 +1,4 @@
+f1a759830ba66e258bbaf62ea39ae5d46cce584bc55f3350165777215520729b
+
+Restore Server
+docker exec -it server_pgadmin_1 python /pgadmin4/setup.py --load-servers /tmp/servers.json

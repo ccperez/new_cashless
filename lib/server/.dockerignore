@@ -1,0 +1,11 @@
+.DS_Store
+.dockerignore
+docker-compose.yml
+
+api/node_modules
+api/npm-debug.log
+api/Dockerfile
+api/package.json.devt
+api/wait-for-it.sh
+api/yarn-error.log
+api/yarn.lock

@@ -1,0 +1,50 @@
+name: new_cashless
+description: A new Flutter project.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^0.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  cupertino_icons: ^0.1.2
+  font_awesome_flutter: any
+  sqflite: any
+  path_provider: any
+  intl: ^0.16.0
+  password: ^1.0.0
+  shared_preferences: any
+  http: 0.12.0+2
+  progress_dialog: ^1.2.0
+  flutter_launcher_icons: ^0.7.4
+  qr_flutter: ^3.1.0
+  pinput: ^0.2.3
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/SampleQR.png
+    - assets/FunctionIcons/LoadWallet.png
+    - assets/FunctionIcons/ReceiveMoney.png
+    - assets/FunctionIcons/ScantoPay.png
+    - assets/FunctionIcons/TransferMoney.png
+    - assets/SmartPayIcons/Load.png
+    - assets/SmartPayIcons/Transfer.png
+    - assets/SmartPayIcons/Settings.png
+    - assets/SmartPayIcons/Help.png
+    - assets/SmartPayIcons/Profile.png
+    - assets/SmartPayIcons/Terms-Conditions.png
+    - assets/SmartPayIcons/About.png
+    - assets/SmartPayIcons/AppIcon.png
+    - assets/SmartPayIcons/SmartPay.png
+    - assets/SmartPayIcons/Name.png

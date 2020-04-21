@@ -1,0 +1,20 @@
+{
+    "Servers": {
+        "1": {
+            "Name": "HerokuDB",
+            "Group": "Servers",
+            "Host": "ec2-3-211-250-230.compute-1.amazonaws.com",
+            "Port": 5432,
+            "MaintenanceDB": "d89uocjtpn0uju",
+            "Username": "rnlqgdupkouifl",
+            "SSLMode": "prefer",
+            "SSLCert": "<STORAGE_DIR>/.postgresql/postgresql.crt",
+            "SSLKey": "<STORAGE_DIR>/.postgresql/postgresql.key",
+            "SSLCompression": 0,
+            "Timeout": 10,
+            "UseSSHTunnel": 0,
+            "TunnelPort": "22",
+            "TunnelAuthentication": 0
+        }
+    }
+}
